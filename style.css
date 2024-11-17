@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+#clock {
+  background: linear-gradient(to right, #696969, #2f4f4f, #696969);
+  border-radius: calc(100vh / 0.5);
+  color: rgb(136, 255, 0);
+  font-family: Lobster;
+  font-size: calc(100vmax / 10);
+  line-height: 1.75;
+  margin: 0 auto;
+  margin-top: 7vh;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 0 2vmin green, 0 0 4vmin green, 0 0 6vmin green,
+    0 0 9vmin green;
+  top: 20vh;
+  width: calc(100vmax / 1.85);
+}
+
+#buttons {
+  margin: 0 auto;
+  margin-top: 25vh;
+  position: relative;
+  text-align: center;
+}
+
+button {
+  border: 1vmin solid #696969;
+  border-radius: 2vmin;
+  color: red;
+  cursor: pointer;
+  font-family: Bubbler One;
+  font-size: calc(80vmax / 24);
+  line-height: 2;
+  outline: none;
+  text-align: center;
+  width: calc(100vmax / 5);
+}
+
+.color1 {
+  background: linear-gradient(
+    to right,
+    #0000cd,
+    #483d8b,
+    #8a2be2,
+    #483d8b,
+    #0000cd
+  );
+}
+
+.color2 {
+  background: linear-gradient(
+    to right,
+    #dc143c,
+    #db7093,
+    #cd5c5c,
+    #db7093,
+    #dc143c
+  );
+}
